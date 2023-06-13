@@ -1,9 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T02:33:39.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.3.7" etag="wUcK3eWlmCgrVvNXB-TP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T06:13:24.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="KBvclrQtF5TOSOgiUEFB" version="21.3.7" type="github">
   <diagram name="第 1 页" id="bLNgPLMlUZYlTHOcJv2b">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GGi2NGe4t13Qzn065dhK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GGi2NGe4t13Qzn065dhK-1" target="GGi2NGe4t13Qzn065dhK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-7" value="访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GGi2NGe4t13Qzn065dhK-3">
+          <mxGeometry x="-0.2909" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GGi2NGe4t13Qzn065dhK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-8" value="验证CASTGC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GGi2NGe4t13Qzn065dhK-4">
+          <mxGeometry x="-0.2033" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGi2NGe4t13Qzn065dhK-2" target="GGi2NGe4t13Qzn065dhK-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-18" value="查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GGi2NGe4t13Qzn065dhK-11">
+          <mxGeometry x="0.2727" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-2" value="轻应用前端&lt;br&gt;出差、航班变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GGi2NGe4t13Qzn065dhK-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-10" value="依赖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GGi2NGe4t13Qzn065dhK-6">
+          <mxGeometry x="0.283" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGi2NGe4t13Qzn065dhK-5" target="GGi2NGe4t13Qzn065dhK-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-15" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GGi2NGe4t13Qzn065dhK-13">
+          <mxGeometry x="-0.1818" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGi2NGe4t13Qzn065dhK-5" target="GGi2NGe4t13Qzn065dhK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-17" value="提供服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GGi2NGe4t13Qzn065dhK-16">
+          <mxGeometry x="0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-5" value="杉杉流程轻应用后端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-9" value="OA流程统一服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-12" value="唯秘用户信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGi2NGe4t13Qzn065dhK-14" value="美亚差旅接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
