@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T12:07:53.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zdVhrNZZCR8YHrHyc6pL" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T01:47:15.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="6irNQTAGyo9LY5Lf9Qeg" version="21.3.7" type="github">
   <diagram name="第 1 页" id="7p4oWYYam-k33Xym5YHT">
     <mxGraphModel dx="1687" dy="911" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="694" y="158" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZwRfqZT_dszzTpxQl1mQ-2" value="琶洲机房" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="458.5" y="216" width="120" height="30" as="geometry" />
+          <mxGeometry x="455" y="216" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZwRfqZT_dszzTpxQl1mQ-3" value="五沙机房" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="821" y="216" width="120" height="30" as="geometry" />
@@ -109,6 +109,12 @@
             <mxPoint x="542" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZwRfqZT_dszzTpxQl1mQ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZwRfqZT_dszzTpxQl1mQ-34" target="ZwRfqZT_dszzTpxQl1mQ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwRfqZT_dszzTpxQl1mQ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZwRfqZT_dszzTpxQl1mQ-34" target="ZwRfqZT_dszzTpxQl1mQ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZwRfqZT_dszzTpxQl1mQ-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="756" y="708" width="348" height="160" as="geometry" />
         </mxCell>
@@ -156,6 +162,12 @@
             <mxPoint x="532" y="616" as="sourcePoint" />
             <mxPoint x="954" y="720" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwRfqZT_dszzTpxQl1mQ-49" value="api.oa.corp.vipshop.com:8090&lt;br&gt;OA统一代理服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1212" y="811" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwRfqZT_dszzTpxQl1mQ-52" value="file.corp.vipshop.com:8056&lt;br&gt;用户头像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1212" y="724" width="180" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
